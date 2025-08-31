@@ -1,110 +1,161 @@
 # rpg
-rpg-site/
-├── index.html
-├── style.css
-└── script.js
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Reino dos Heróis</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>O Mundo dos RPGs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #1a0033;
+            color: #ffccff;
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            text-align: center;
+            text-shadow: 2px 2px 4px #000;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: #ff6600;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #ff99ff;
+            margin-bottom: 30px;
+        }
+
+        h1:hover, h2:hover {
+            color: #ffffff;
+        }
+
+        p {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            font-size: 18px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        iframe {
+            border: 3px solid #ff6600;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            height: 280px;
+        }
+
+        @media (max-width: 600px) {
+            iframe {
+                height: 200px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        button {
+            display: block;
+            margin: 0 auto 30px auto;
+            background-color: #ff6600;
+            border: none;
+            color: #1a0033;
+            font-weight: 700;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(255, 102, 0, 0.6);
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #cc5200;
+        }
+
+        #extra-info {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            font-size: 18px;
+            display: none;
+            color: #ffd6ff;
+            border-left: 4px solid #ff6600;
+            padding-left: 15px;
+            background-color: rgba(255, 102, 0, 0.1);
+            border-radius: 6px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>🏰 Reino dos Heróis</h1>
-    <nav>
-      <ul>
-        <li><a href="#historia">História</a></li>
-        <li><a href="#videos">Vídeos</a></li>
-        <li><a href="#personagens">Personagens</a></li>
-      </ul>
-    </nav>
-  </header>
+    <h1>O Mundo dos RPGs</h1>
+    <h2>Explorando mundos, criando heróis e enfrentando monstros</h2>
 
-  <section id="historia">
-    <h2>A História do Reino</h2>
-    <p>Em um mundo de dragões e magos, heróis surgem para defender a paz contra as forças das trevas...</p>
-  </section>
+    <section>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/u84nTLfGfwg" title="O que é RPG?"></iframe>
+        </div>
 
-  <section id="videos">
-    <h2>🎥 Vídeos do RPG</h2>
-    <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI2" allowfullscreen></iframe>
+        <p>
+            RPG (Role-Playing Game) é um gênero de jogo onde os participantes interpretam personagens fictícios em mundos imaginários. Com origem nos anos 1970, os RPGs misturam elementos de narrativa, estratégia e interpretação.
+            Jogadores assumem papéis como guerreiros, magos, ladrões ou clérigos, enfrentando desafios, batalhas e missões dentro de histórias épicas conduzidas por um mestre ou através de videogames.
+        </p>
+    </section>
+
+    <button id="toggle-info">Mostrar mais informações</button>
+
+    <div id="extra-info">
+        <p>
+            Existem diversos tipos de RPG: de mesa (como Dungeons & Dragons), eletrônicos (como Final Fantasy, The Witcher e Skyrim) e até ao vivo (Live Action RPG). Cada um oferece uma forma única de imersão no enredo e na criação de mundos fantásticos.
+        </p>
+        <p>
+            Nos RPGs de mesa, os jogadores rolam dados e usam livros de regras. Já nos eletrônicos, a experiência é guiada por sistemas digitais e gráficos complexos, permitindo mundos abertos vastos e cheios de possibilidades.
+        </p>
+        <p>
+            O verdadeiro coração do RPG está na criatividade e cooperação. É mais do que um jogo — é uma forma de contar histórias juntos, onde cada decisão pode mudar o destino de um reino inteiro.
+        </p>
     </div>
-  </section>
 
-  <section id="personagens">
-    <h2>⚔️ Personagens Principais</h2>
-    <ul>
-      <li><strong>Arthas</strong> – O Cavaleiro da Luz</li>
-      <li><strong>Lyra</strong> – A Maga Elemental</li>
-      <li><strong>Gorun</strong> – O Orc Guerreiro</li>
-    </ul>
-  </section>
+    <section>
+        <h2>Mais vídeos sobre RPG</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/3BGU2ozQLlE" title="Como funciona um RPG de mesa?"></iframe>
+            <iframe src="https://www.youtube.com/embed/Zb6FtlM5r3Q" title="História dos RPGs eletrônicos"></iframe>
+            <iframe src="https://www.youtube.com/embed/yhUWoX2kLDg" title="Skyrim - O clássico dos RPGs modernos"></iframe>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Reino dos Heróis</p>
-  </footer>
+    <script>
+        const btn = document.getElementById('toggle-info');
+        const extraInfo = document.getElementById('extra-info');
 
-  <script src="script.js"></script>
+        btn.addEventListener('click', () => {
+            if (extraInfo.style.display === 'none' || extraInfo.style.display === '') {
+                extraInfo.style.display = 'block';
+                btn.textContent = 'Mostrar menos informações';
+            } else {
+                extraInfo.style.display = 'none';
+                btn.textContent = 'Mostrar mais informações';
+            }
+        });
+    </script>
 </body>
 </html>
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #2e1a47, #0f0c29);
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #4b0082;
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-nav a {
-  color: #ffd700;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-section {
-  padding: 40px 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-  margin: 20px;
-  border-radius: 8px;
-}
-
-.video-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-iframe {
-  width: 300px;
-  height: 180px;
-  border: none;
-}
-
-footer {
-  text-align: center;
-  background-color: #222;
-  padding: 20px;
-}
-// Apenas um efeito básico de boas-vindas
-window.onload = () => {
-  alert("Bem-vindo ao Reino dos Heróis!");
-};
-
