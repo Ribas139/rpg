@@ -111,7 +111,7 @@
   <section>
     <div class="video-container">
       <!-- Exemplo de vídeo introdutório -->
-      <iframe src="https://www.youtube.com/embed/?listType=playlist&list=PL" title="Ordem Paranormal - Playlist"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Pf4HzTdA2WE?si=gacmOhPlZsvM_v3h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <p>
       A websérie <strong>Ordem Paranormal</strong>, criada e apresentada por Cellbit, é uma experiência imersiva de RPG de mesa com temática de investigação paranormal, onde um grupo de agentes enfrenta mistérios sobrenaturais. A segunda temporada, “O Segredo na Floresta”, utiliza um sistema inspirado em *Call of Cthulhu* :contentReference[oaicite:0]{index=0}.
@@ -135,9 +135,9 @@
   <section>
     <h2>Vídeos de Ordem Paranormal</h2>
     <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID1" title="Ordem Paranormal - Episódio 1"></iframe>
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID2" title="O Segredo na Floresta - Episódio 1"></iframe>
-      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID3" title="Trailer da Temporada"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zgaZoMswQG4?si=zqa7_82Mdo8lncl5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/k5y48mQTdpE?si=PpPK67aVHhSOgM3S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wiGlOf3mCVM?si=WRk8_q4PfpZzGCNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
 
